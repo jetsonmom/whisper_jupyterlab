@@ -38,6 +38,23 @@ jupyter lab
 
 ![1](https://github.com/user-attachments/assets/c5247511-fe39-432b-bafc-35116691bf1e)
 
+<b> cmd 창에서 
+C:\>cd project_ai
+
+C:\project_ai>ssh orin@192.168.0.123
+The authenticity of host '192.168.0.123 (192.168.0.123)' can't be established.
+ED25519 key fingerprint is SHA256:l4sevSo/VHYTUKV2Niw1JsuRLEECZzFFvU5NfpplPb4.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '192.168.0.123' (ED25519) to the list of known hosts.
+orin@192.168.0.123's password:
+(whisper_project) orin@orin-desktop:~$ ls
+Desktop    en_whisper_run_wav.py               Music     run.py     test_sound.py
+Documents  miniconda3                          Pictures  snap       Videos
+Downloads  Miniconda3-latest-Linux-aarch64.sh  Public    Templates  whisper_project
+(whisper_project) orin@orin-desktop:~$
+
+
 <b> jupyter notebook에서 하는방법 chatgpt에서 알려준 내용
 
 Windows 노트북에서 JupyterLab을 실행하여 오린(Orin) 보드에 설치된 자동차를 제어하려면 몇 가지 설정과 연결 과정이 필요합니다. 여기에는 네트워크 설정, 코드 수정 및 라이브러리 설치가 포함됩니다.
