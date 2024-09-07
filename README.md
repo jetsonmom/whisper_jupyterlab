@@ -42,6 +42,7 @@ jupyter lab
 C:\>cd project_ai
 
 C:\project_ai>ssh orin@192.168.0.123
+
 The authenticity of host '192.168.0.123 (192.168.0.123)' can't be established.
 ED25519 key fingerprint is SHA256:l4sevSo/VHYTUKV2Niw1JsuRLEECZzFFvU5NfpplPb4.
 This key is not known by any other names
