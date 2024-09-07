@@ -36,30 +36,9 @@ Successfully installed pip-24.2
 jupyter lab
 ```
 
-
 ![1](https://github.com/user-attachments/assets/c5247511-fe39-432b-bafc-35116691bf1e)
 
-
 <b> jupyter notebook에서 하는방법 chatgpt에서 알려준 내용
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Windows 노트북에서 JupyterLab을 실행하여 오린(Orin) 보드에 설치된 자동차를 제어하려면 몇 가지 설정과 연결 과정이 필요합니다. 여기에는 네트워크 설정, 코드 수정 및 라이브러리 설치가 포함됩니다.
 
@@ -71,7 +50,7 @@ Windows 노트북에서 JupyterLab을 실행하여 오린(Orin) 보드에 설치
 - **로컬 네트워크**: 같은 로컬 네트워크(Wi-Fi 또는 유선 네트워크)에 오린 보드와 노트북을 연결합니다. 이 경우, 오린 보드의 IP 주소를 알아내야 합니다. 보통 `ifconfig` (Linux/UNIX) 또는 `ipconfig` (Windows) 명령어를 통해 확인할 수 있습니다.
 
 ### 2. SSH 접근 설정
-
+inet 192.168.0.123
 오린 보드에 SSH 서비스를 활성화하고, 노트북에서 오린 보드에 SSH를 통해 접속할 수 있도록 설정합니다. SSH 접근을 통해 터미널 명령을 원격으로 실행하고 파일을 전송할 수 있습니다.
 
 - **SSH 설정**: 오린 보드에서 SSH 서버를 활성화하고, 외부에서 접근 가능하도록 설정합니다.
