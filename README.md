@@ -60,11 +60,18 @@ Downloads  Miniconda3-latest-Linux-aarch64.sh  Public    Templates  whisper_proj
 
 이런 경우, Jupyter Lab에서 SSH를 사용하여 Orin 보드와 연결하여 작업을 진행하는 방법을 사용하면 됩니다. 아래는 그 방법을 안내합니다.
 
-방법 1: Jupyter Lab에서 SSH를 통해 Orin 보드 제어
-Jupyter Lab에서 SSH로 Orin 보드에 원격 연결하여 명령을 내리려면, Jupyter Lab의 SSH 확장 프로그램을 사용하거나, paramiko와 같은 Python 패키지를 통해 SSH 연결을 설정하는 방법을 사용할 수 있습니다.
+방법 1: Jupyter Lab의 터미널을 이용해 SSH 연결
+Jupyter Lab의 터미널에서 직접 SSH 명령어를 사용할 수도 있습니다. 
+Jupyter Lab 환경 내에서 제공하는 터미널 창을 열고, 그곳에서 SSH로 Orin 보드에 접속하여 명령을 실행할 수 있습니다.
 
-1. Jupyter Lab에서 SSH 확장 설치
-Jupyter Lab 확장 설치: Jupyter Lab에서 SSH를 사용할 수 있는 확장을 설치할 수 있습니다. 확장을 설치하려면 다음 명령어를 Jupyter Lab 환경의 터미널에서 실행하세요.
+Jupyter Lab 터미널 열기:
+
+Jupyter Lab의 인터페이스에서 터미널을 열고,
+SSH 연결: 터미널에서 아래 명령어를 입력하여 Orin 보드에 SSH로 접속하세요.
+
+```
+ssh orin@192.168.0.123
+```
 <b> jupyter notebook에서 하는방법 chatgpt에서 알려준 내용
 
 Windows 노트북에서 JupyterLab을 실행하여 오린(Orin) 보드에 설치된 자동차를 제어하려면 몇 가지 설정과 연결 과정이 필요합니다. 여기에는 네트워크 설정, 코드 수정 및 라이브러리 설치가 포함됩니다.
